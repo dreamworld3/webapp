@@ -66,7 +66,7 @@ export default {
       recommendMusic: []
     }
   },
-  created:function() {
+  created: function() {
     this._getBanner()
     this._getRecommendList()
     this._getRecommendMusic()
@@ -119,8 +119,7 @@ export default {
           // let list = res.data.banners.map((item) => {
           //   if (item.)
           // })
-          let list = res.data.banners
-       
+          let list = res.data.banners 
           this.banner = list
 
           // console.log(this.banner)
