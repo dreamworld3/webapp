@@ -1,11 +1,9 @@
-/*配置路由,控制组件之间的跳转，
-1.引入
-*/
+
 import Vue from 'vue'
 import Router from 'vue-router'
 
-Vue.use(Router)/*2.使用/注册*/
-/*3.引入路由对应的组件地址*/
+Vue.use(Router)
+
 const Recommend = (resolve) => {
   import('cpnts/recommend/recommend').then((module) => {
     resolve(module)
@@ -59,14 +57,10 @@ const Mv = (resolve) => {
   })
 }
 
-/*配置路由*/
+
 export default new Router({
   routes: [
-    /*{
-      // 默认跳转到 recommend
-      path: '/',
-      redirect: '/recommend'
-    },*/
+   
     {
       path: '/recommend',
       component: Recommend, // Recommend是组件的名字，这个路由对应跳转到的组件
