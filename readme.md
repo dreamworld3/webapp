@@ -19,9 +19,9 @@ node app.js
 
 
 2.再去项目根目录下运行下面命令：
-安装依赖：npm install
+安装依赖：cnpm install
 
-启动项目：npm run dev
+启动项目：cnpm run dev
 
-打包项目：npm run build
+打包项目：cnpm run build
 
