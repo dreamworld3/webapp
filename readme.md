@@ -28,7 +28,7 @@ node app.js
 
 
 2.打开另一个DOS命令行窗口，去项目根目录下运行下面命令：
-安装依赖：cnpm install
+安装依赖：cnpm install（为了项目正常运行，要禁用ESLint,安装依赖后去buile/webpack.base.conf.js注释掉第46行的代码...(config.dev.useEslint ? [createLintingRule()] : []),）
 
 启动项目：cnpm run dev
 
