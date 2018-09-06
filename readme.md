@@ -14,11 +14,14 @@ Vue项目--移动端音乐WebApp
 
 项目运行：
 1.复制代码到本地，打开DOS命令行窗口，项目根目录下输入
+
 git clone git@github.com:Binaryify/NeteaseCloudMusicApi.git
+
 (该命令会在目录下生成一个名为NeteaseCloudMusicApi的文件夹)
 
 
 进入到项目下的NeteaseCloudMusicApi目录下，输入以下命令
+
 cnpm install
 
 node app.js
