@@ -14,7 +14,8 @@ Vue项目--移动端音乐WebApp
 
 项目运行：
 1.复制代码到本地，打开DOS命令行窗口并进入到项目下的NeteaseCloudMusicApi目录下，输入以下命令
- node app.js
+
+node app.js
 
 
 2.再去项目根目录下运行下面命令：
